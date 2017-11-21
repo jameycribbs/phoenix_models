@@ -6,7 +6,7 @@ import (
 
 type Program struct {
 	ID        uint      `gorm:"primary_key" json:"id"`
-	CreatedAt time.Time `json:"created-at"`
-	UpdatedAt time.Time `json:"updated-at"`
+	CreatedAt time.Time `json:"created_at"`
+	UpdatedAt time.Time `json:"updated_at"`
 	Name      string    `json:"name"`
 }
